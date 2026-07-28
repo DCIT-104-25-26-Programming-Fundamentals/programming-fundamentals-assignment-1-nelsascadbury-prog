@@ -6,7 +6,7 @@ def is_prime(n):
             return False
     return True
 
-if _name_ == "_main_":
+if __name__ == "__main__":
     try:
         number = int(input("Enter a number: "))
         if is_prime(number):
