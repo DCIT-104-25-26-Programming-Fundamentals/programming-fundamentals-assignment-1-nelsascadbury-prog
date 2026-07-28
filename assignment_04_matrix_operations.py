@@ -7,5 +7,5 @@ def matrix_operations(matrix_a, matrix_b):
     
     return addition, subtraction
 
-if _name_ == "__main__":
+if __name__ == "__main__":
     print("Matrix operations initialized.")
